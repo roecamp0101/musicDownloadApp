@@ -1,0 +1,47 @@
+<html>
+  <head>
+      <!-- Set the base href -->
+    <base href="/">
+    <title>Angular 2 QuickStart</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <!-- Bootstrap Core CSS -->
+    <link href="partials/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    
+    <link href="partials/css/grayscale.css" rel="stylesheet">
+    
+      
+    <!-- Custom Fonts -->
+    <link href="partials/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">  
+   
+     <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+    <my-app>Loading...</my-app>
+      
+      <!-- jQuery -->
+    <script src="partials/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="partials/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="partials/js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="partials/js/grayscale.js"></script>  
+  </body>
+</html>

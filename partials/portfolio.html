@@ -1,0 +1,18 @@
+<h2 class="userheading text-center">Active Users</h2>
+<div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4" *ngFor="let dataInfo of content">
+          <img class="img-circle center-block" src="{{dataInfo.picture.large}}" alt="Generic placeholder image" >
+          <h4 class="text-center">Username: {{dataInfo.login.username}}</h4>
+          <p class="text-center" [myHighlight]="color">Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <div class="center-button"><a class="btn btn-default " href="#" role="button">View details »</a></div>
+        </div><!-- /.col-lg-4 -->
+        
+     
+      </div><!-- /.row -->
+
+      
+
+    </div>
